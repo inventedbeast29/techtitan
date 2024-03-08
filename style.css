@@ -1,0 +1,96 @@
+
+
+.navbar-nav{
+    margin-left: auto;
+}
+.pull-left:hover{
+    transform: scale(1.2);
+}
+.navbar-brand:hover{
+    background-color: rgba(29, 167, 189, 0.655);
+    color: rgb(226, 198, 43);
+    border-radius: 3px;
+    transform: rotateZ(10deg);
+    
+}   
+
+.logoup{
+   
+  font-size: x-large;
+    animation-name: logos;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+    animation-delay: 10ms;
+    position:relative;
+    animation-fill-mode: forwards;
+}
+@keyframes logos{
+    0%{left:0%;top: 0%;}
+    100%{
+        left:35%;top:0em;}
+    
+}
+.container-aboutus{
+    margin-left: 1%;
+}
+.heading{
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    color: rgba(255, 132, 0, 0.703);
+    
+}
+
+
+.course{
+    color: rgb(12, 12, 12);
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight:800;
+}
+.container-fluid-name{
+    background-color:  rgb(255, 255, 255);
+    margin-left: 1%;
+}
+#one:hover{
+   border-width: 2px;
+border-color: rgb(255, 132, 0);
+}
+#two:hover{
+    border-width: 2px;
+    border-color: rgb(21, 255, 0);
+}
+#three:hover{
+    border-width: 2px;
+    border-color: blue;
+}
+
+.join{
+    margin-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+.container-jnus{
+    margin-left: 1%;
+}
+.container-fluid-form{
+    margin-left: 33%;
+    background-color: rgba(19, 205, 212, 0.274);
+   padding-left:11px;
+   width:max-content;
+}
+
+.contact{
+    color: rgb(12, 12, 12);
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+.container-fluid-footer{
+    background-color: rgba(32, 133, 32, 0.534);
+}
+.bi-facebook{
+    margin-left: 40%;
+}
